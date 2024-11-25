@@ -1,5 +1,6 @@
 import React, { Children, useState } from 'react';
-import './header.css';
+// import './header.css';
+import './header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBed, faCar, faPerson, faPlane, faTaxi } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarDays } from '@fortawesome/free-regular-svg-icons';
