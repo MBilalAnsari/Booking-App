@@ -5,6 +5,8 @@ import Header from '../../components/Header/Header.jsx'
 import Featured from '../../components/Featured/Featured.jsx'
 import Propertylist from '../../components/Propertylist/Propertylist.jsx'
 import FeaturedProp from '../../components/FeaturedProperties/FeaturedProp.jsx'
+import MailList from '../../components/MailList/MailList.jsx'
+import Footer from '../../components/Footer/footer.jsx'
 const Home = () => {
   return (
     <div>
@@ -20,6 +22,8 @@ const Home = () => {
           Homes guests love
         </h1>
         <FeaturedProp/>
+        <MailList/>
+        <Footer/>
       </div>
     </div>
   )

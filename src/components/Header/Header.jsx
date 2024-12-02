@@ -94,7 +94,7 @@ const Header = ({ type }) => {
                                     <div className="optionItems">
                                         <span className="optionText">Children</span>
                                         <div className="optCounter">
-                                            <button disabled={options.adult <= 0} className="btnCounterbtn" onClick={() => clickHandler("Children", "d")}>-</button>
+                                            <button disabled={options.Children <= 0} className="btnCounterbtn" onClick={() => clickHandler("Children", "d")}>-</button>
                                             <span className="optCountNum">{options.Children}</span>
                                             <button className="btnCounterbtn" onClick={() => clickHandler("Children", "i")}>+</button>
                                         </div>
@@ -102,7 +102,7 @@ const Header = ({ type }) => {
                                     <div className="optionItems">
                                         <span className="optionText">Room</span>
                                         <div className="optCounter">
-                                            <button disabled={options.adult <= 0} className="btnCounterbtn" onClick={() => clickHandler("room", "d")}>-</button>
+                                            <button disabled={options.room <= 0} className="btnCounterbtn" onClick={() => clickHandler("room", "d")}>-</button>
                                             <span className="optCountNum">{options.room}</span>
                                             <button className="btnCounterbtn" onClick={() => clickHandler("room", "i")}>+</button>
                                         </div>
